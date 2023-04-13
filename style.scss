@@ -1,0 +1,102 @@
+.area1 {
+   width: 100%;
+   height: 100%;
+   background-color: #6194f2;
+   position: relative;
+   text-align: center;
+   display: block;
+   color: white;
+
+   .photo {
+      display: inline-block;
+      position: relative;
+      width: 150px;
+      height: 150px;
+      overflow: hidden;
+      border-radius: 50%;
+      margin-top: 20px;
+      img {
+         width: auto;
+         height: 100%;
+         margin-left: -40%;
+      }
+   }
+   p {
+      padding: 0 20px 20px 20px;
+   }
+}
+$primary-color: #6194f2;
+body {
+   padding: 0;
+   margin: 0;
+}
+
+.contain {
+   padding: 0 32px;
+}
+
+.profile {
+   .title {
+      display: flex;
+      flex-wrap: wrap-reverse;
+      border-bottom: 1px solid black;
+      p {
+         margin: 43px 0 0 15px;
+      }
+   }
+   .desciption {
+      p {
+         margin: 20px 0 0 0;
+      }
+   }
+}
+.education {
+   .title {
+      display: flex;
+      flex-wrap: wrap-reverse;
+      border-bottom: 1px solid black;
+      p {
+         margin: 43px 0 0 15px;
+      }
+   }
+}
+
+.area3 {
+   width: 100%;
+   height: 100%;
+   background-color: #6194f2;
+   position: relative;
+   text-align: center;
+   display: block;
+   color: white;
+
+   .skill {
+      border-bottom: 1px solid white;
+      margin: 20px 30px;
+      h1 {
+         margin-bottom: 10px;
+         padding-top: 10px;
+      }
+   }
+   .skill-list {
+      padding-bottom: 10px;
+   }
+}
+
+.area4 {
+   .work {
+      display: flex;
+      flex-wrap: wrap-reverse;
+      border-bottom: 1px solid black;
+      p {
+         margin: 43px 0 0 15px;
+      }
+   }
+   ul li::marker {
+      color: #6194f2;
+      font-size: 30px;
+   }
+   ol li {
+      margin: 10px 0;
+   }
+}
